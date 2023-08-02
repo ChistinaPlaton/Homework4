@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пошук</title>
+</head>
+<body>
+    <form action="#">
+        <p>
+            <label for="automodel">Марка авто</label>
+            <select id="automodel">
+                <option value="Audi">Audi</option>
+                <option value="BMW">BMW</option>
+                <option value="Ford">Ford</option>
+                <option value="Kia">Kia</option>
+            </select>
+        </p>
+        <p>
+            <label for="a1">Тип кузова</label>
+            <select id="a1">
+                <option value="">Седан</option>
+                <option value="">Купе</option>
+                <option value="">Хэтчбек</option>
+                <option value="">Лифтбек</option>
+            </select>
+        </p>
+        <p>
+            <label for="country">Країна виробник</label>
+            <select id="country">
+                <option value="">Китай</option>
+                <option value="">США</option>
+                <option value="">Германия</option>
+            </select>
+        </p>
+        <p>
+            <label for="price">Ціна</label>
+            <input id="price" type="number" placeholder="1000$" min="1" max="10000">
+        </p>
+        <p>
+            <label for="yer">Рік випуску</label>
+            <input id="price" type="number" placeholder="Рік" min="1999" max="2023">
+        </p>
+        <fieldset>
+            <legend>Стан</legend>
+            <input id="st" type="checkbox">
+            <label for="st">Бита</label> <br>
+            <input id="st1" type="checkbox">
+            <label for="st1">У кредиті</label><br>
+            <input id="st2" type="checkbox">
+            <label for="st2">Нерозмитнена</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Тип палива</legend>
+            <input id="01" type="radio" name="01">
+            <label for="01">Бензин</label> <br>
+            <input id="02" type="radio" name="01">
+            <label for="02">Газ</label><br>
+            <input id="03" type="radio" name="01">
+            <label for="03">Дизель</label>
+        </fieldset>
+        <fieldset>
+            <legend>Тип коробки передач</legend>
+            <input id="04" type="radio" name="02">
+            <label for="04">Автомат</label> <br>
+            <input id="05" type="radio" name="02">
+            <label for="05">Механика</label><br>
+        </fieldset>
+        <label for="color">Колір</label> <br>
+        <input id="color" type="color">
+    </form>
+</body>
+
+</html>
